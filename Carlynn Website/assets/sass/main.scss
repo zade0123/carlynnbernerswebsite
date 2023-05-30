@@ -7,11 +7,6 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,300italic,400italic');
 @import url('fontawesome-all.min.css');
 
-/*
-	Astral by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
 
 // Breakpoints.
 
@@ -380,6 +375,42 @@
 		}
 	}
 
+/* Video */
+
+.video {
+	display: inline-block;
+
+	vid {
+		display: block;
+		width: 100%;
+	}
+
+	&.fit {
+		display: block;
+		width: 100%;
+	}
+
+	&.featured {
+		display: block;
+		width: 100%;
+		margin: 0 0 2em 0;
+	}
+
+	&.left {
+		float: left;
+		margin: 0 2em 2em 0;
+	}
+
+	&.centered {
+		display: block;
+		margin: 0 0 2em 0;
+
+		vid {
+			margin: 0 auto;
+			width: auto;
+		}
+	}
+}
 /* Button */
 
 	input[type="button"],
